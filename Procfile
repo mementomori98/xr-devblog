@@ -1,0 +1,1 @@
+web: sirv public --single --dev --port $PORT
