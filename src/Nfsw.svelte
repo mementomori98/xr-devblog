@@ -13,7 +13,7 @@
                 NSFW
             </div>
             <div class="nsfw__disclaimer-content">
-                [ Click to View aniways ]
+                [ Click to View anyways ]
             </div>
         </div>
     {/if}
