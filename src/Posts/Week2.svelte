@@ -6,7 +6,7 @@
 </script>
 
 <Post>
-    <Title>Week 2 - Foundations of an AR Game</Title>
+    <Title>AR Marker based Week 1 - Foundations of an AR Game</Title>
     <Text>
         This week we outlined our plan for our app. A game where you control a pad to prevent a ball from falling,
         which then bounces back up to break bricks and score points for the player.

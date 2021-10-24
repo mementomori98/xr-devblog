@@ -8,6 +8,10 @@
     import Nfsw from "./Nfsw.svelte";
     import Week1 from "./Posts/Week1.svelte";
     import Week2 from "./Posts/Week2.svelte";
+    import Week6 from "./Posts/Week6.svelte";
+    import Week5 from "./Posts/Week5.svelte";
+    import Week4 from "./Posts/Week4.svelte";
+    import Week3 from "./Posts/Week3.svelte";
 </script>
 
 <div class="layout">
@@ -15,6 +19,10 @@
 
     </div>
     <div class="content">
+        <Week6/>
+        <Week5/>
+        <Week4/>
+        <Week3/>
         <Week2/>
         <Week1/>
     </div>
