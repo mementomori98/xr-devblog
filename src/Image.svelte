@@ -3,7 +3,7 @@
 </script>
 
 <div class="image">
-    <img src={src}/>
+    <img src={src} style="width: 100%;"/>
 </div>
 
 <style lang="scss">

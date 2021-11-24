@@ -12,6 +12,14 @@
     import Week5 from "./Posts/Week5.svelte";
     import Week4 from "./Posts/Week4.svelte";
     import Week3 from "./Posts/Week3.svelte";
+    import Week7 from "./Posts/Week7.svelte";
+    import Week8 from "./Posts/Week8.svelte";
+    import Week9 from "./Posts/Week9.svelte";
+    import Week10 from "./Posts/Week10.svelte";
+    import Week11 from "./Posts/Week11.svelte";
+    import Week12 from "./Posts/Week12.svelte";
+    import Week13 from "./Posts/Week13.svelte";
+
 </script>
 
 <div class="layout">
@@ -19,6 +27,13 @@
 
     </div>
     <div class="content">
+        <Week13/>
+        <Week12/>
+        <Week11/> 
+        <Week10/>
+        <Week9/>
+        <Week8/>
+        <Week7/>
         <Week6/>
         <Week5/>
         <Week4/>
