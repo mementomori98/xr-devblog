@@ -20,31 +20,63 @@
     import Week12 from "./Posts/Week12.svelte";
     import Week13 from "./Posts/Week13.svelte";
 
+    var order = false;
+
 </script>
 
 <div class="layout">
     <div class="appbar">
-
+        <div class="button" on:click={() => order = false}>Oldest First</div>
+        <div class="button" on:click={() => order = true}>Newest First</div>
     </div>
     <div class="content">
-        <Week13/>
-        <Week12/>
-        <Week11/> 
-        <Week10/>
-        <Week9/>
-        <Week8/>
-        <Week7/>
-        <Week6/>
-        <Week5/>
-        <Week4/>
-        <Week3/>
-        <Week2/>
-        <Week1/>
+        {#if order}
+            <Week13/>
+            <Week12/>
+            <Week11/>
+            <Week10/>
+            <Week9/>
+            <Week8/>
+            <Week7/>
+            <Week6/>
+            <Week5/>
+            <Week4/>
+            <Week3/>
+            <Week2/>
+            <Week1/>
+            {:else }
+            <Week1/>
+            <Week2/>
+            <Week3/>
+            <Week4/>
+            <Week5/>
+            <Week6/>
+            <Week7/>
+            <Week8/>
+            <Week9/>
+            <Week10/>
+            <Week11/>
+            <Week12/>
+            <Week13/>
+            {/if}
+
     </div>
 </div>
 
 <style lang="scss">
     @import "globals.scss";
+
+    .button {
+        padding: 8px 16px;
+        color: white;
+        border-radius: 6px;
+        cursor: pointer;
+        user-select: none;
+    }
+
+    .button:hover {
+        background-color: rgba(255, 255, 255, 0.1);
+    }
 
     :global(body) {
         margin: 0;
@@ -71,6 +103,9 @@
         background-color: #207796;
         z-index: 10;
         position: fixed;
+        display: flex;
+        justify-content: center;
+        align-items: center;
     }
 
     .content {

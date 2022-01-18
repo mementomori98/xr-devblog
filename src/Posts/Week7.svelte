@@ -7,6 +7,9 @@
 <Post>
     <Title>VR Week 2 - Minecraft VR</Title>
     <Text>
+        <a href="https://youtu.be/9fe1RBhZlwk">Link to Video</a>
+    </Text>
+    <Text>
         During this week we decided on the specifics of our "Minecraft VR" game.
 
         We decided on the following based on the time left and complexity of the task.

@@ -3,7 +3,7 @@
 </script>
 
 <div class="image">
-    <img src={src} style="width: 100%;"/>
+    <img src={src} style=""/>
 </div>
 
 <style lang="scss">
@@ -15,6 +15,7 @@
 
         :global(& img) {
             max-height: 500px;
+            max-width: 100%;
             display: block;
             border-radius: 10px;
             box-shadow: $shadow;

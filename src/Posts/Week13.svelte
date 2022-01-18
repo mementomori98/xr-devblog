@@ -8,6 +8,9 @@
 <Post>
     <Title>XR Project Week 4 "Rampage"</Title>
     <Text>
+        <a href="https://youtu.be/Mum_q_5U_lY">Link to Video</a>
+    </Text>
+    <Text>
         <p>
             As the main components were set, it was time to focus on polishing
             the game for the VR/XR expo.
